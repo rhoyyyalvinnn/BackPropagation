@@ -34,6 +34,8 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            textBox4 = new TextBox();
+            textBox5 = new TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -52,14 +54,14 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(354, 71);
+            textBox3.Location = new Point(28, 133);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(212, 23);
             textBox3.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(49, 133);
+            button1.Location = new Point(43, 215);
             button1.Name = "button1";
             button1.Size = new Size(156, 54);
             button1.TabIndex = 3;
@@ -69,7 +71,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(237, 133);
+            button2.Location = new Point(242, 215);
             button2.Name = "button2";
             button2.Size = new Size(156, 54);
             button2.TabIndex = 4;
@@ -79,7 +81,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(410, 133);
+            button3.Location = new Point(438, 215);
             button3.Name = "button3";
             button3.Size = new Size(156, 54);
             button3.TabIndex = 5;
@@ -87,11 +89,27 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(28, 177);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(212, 23);
+            textBox4.TabIndex = 6;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(382, 117);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(212, 23);
+            textBox5.TabIndex = 7;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox5);
+            Controls.Add(textBox4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -112,5 +130,7 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private TextBox textBox4;
+        private TextBox textBox5;
     }
 }
